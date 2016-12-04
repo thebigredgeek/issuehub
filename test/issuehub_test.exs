@@ -1,4 +1,4 @@
-defmodule IssuehubTest do
+defmodule Issuehub.Test do
   use ExUnit.Case
   doctest Issuehub
 

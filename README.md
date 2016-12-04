@@ -1,24 +1,20 @@
 # Issuehub
 
-**TODO: Add description**
+CLI tool to fetch github issues
 
-## Installation
+## Development
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+Configuring the project
+```bash
+$ make configure
+```
 
-  1. Add `issuehub` to your list of dependencies in `mix.exs`:
+Running tests
+```bash
+$ make test
+```
 
-    ```elixir
-    def deps do
-      [{:issuehub, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `issuehub` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:issuehub]]
-    end
-    ```
-
+Generating docs
+```bash
+$ make docs
+```
