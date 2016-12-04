@@ -1,0 +1,2 @@
+defmodule Issuehub do
+end
